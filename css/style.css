@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9d9fa3;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#materias {
+    margin-bottom: 20px;
+}
+
+#lista-materias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.materia {
+    border: 1px solid #ebf3efad;
+    padding: 10px;
+}
+
+#formulario-materias {
+    border: 1px solid #0a59eb;
+    padding: 20px;
+}
+
+#form-materia input,
+#form-materia textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #013bfa;
+}
